@@ -1,0 +1,39 @@
+footer {
+	background: #2D036A;
+	padding: 95px 0;
+}
+
+
+.flast {
+	color: #9798A5;
+}
+
+.flast, .flogo {
+	grid-column-start: 1;
+}
+
+.fcenter {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 26px;
+	grid-column-start: 2;
+}
+
+footer .container  {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.flinks, .fcenter {
+	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+
+.flinks {
+	display: flex;
+	flex-direction: column;
+	grid-column-start: 3;
+}
